@@ -15,9 +15,9 @@ impl Box {
     fn get_color(&self) {
         match self.color {
             BoxColor::Red => println!("Red colored Box!!"),
-            BoxColor::Blue => println!("Red colored Box!!"),
-            BoxColor::Green => println!("Red colored Box!!"),
-            BoxColor::Yellow => println!("Red colored Box!!"),
+            BoxColor::Blue => println!("Blue colored Box!!"),
+            BoxColor::Green => println!("Green colored Box!!"),
+            BoxColor::Yellow => println!("Yellow colored Box!!"),
         }
     }
     fn get_attrs(&self) {
